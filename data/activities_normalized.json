@@ -21346,5 +21346,89 @@
     "start_date_local": "2026-02-16T18:19:11",
     "type": "Yoga",
     "year": 2026
+  },
+  {
+    "date": "2026-02-17",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "21897196293",
+    "moving_time": 718.2650146484375,
+    "raw_activity_type": "strength_training",
+    "raw_type": "strength_training",
+    "start_date_local": "2026-02-17T16:50:16",
+    "type": "WeightTraining",
+    "year": 2026
+  },
+  {
+    "date": "2026-02-17",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "21897590638",
+    "moving_time": 1787.60302734375,
+    "raw_activity_type": "yoga",
+    "raw_type": "yoga",
+    "start_date_local": "2026-02-17T17:46:56",
+    "type": "Yoga",
+    "year": 2026
+  },
+  {
+    "date": "2026-02-17",
+    "distance": 7785.1201171875,
+    "elevation_gain": 39.0,
+    "id": "21900445965",
+    "moving_time": 7397.960021972656,
+    "raw_activity_type": "walking",
+    "raw_type": "walking",
+    "start_date_local": "2026-02-17T20:01:57",
+    "type": "Walk",
+    "year": 2026
+  },
+  {
+    "date": "2026-02-18",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "21907415031",
+    "moving_time": 394.34600830078125,
+    "raw_activity_type": "strength_training",
+    "raw_type": "strength_training",
+    "start_date_local": "2026-02-18T15:55:39",
+    "type": "WeightTraining",
+    "year": 2026
+  },
+  {
+    "date": "2026-02-18",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "21907646225",
+    "moving_time": 1389.5880126953125,
+    "raw_activity_type": "yoga",
+    "raw_type": "yoga",
+    "start_date_local": "2026-02-18T16:25:21",
+    "type": "Yoga",
+    "year": 2026
+  },
+  {
+    "date": "2026-02-19",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "21917921500",
+    "moving_time": 525.8939819335938,
+    "raw_activity_type": "strength_training",
+    "raw_type": "strength_training",
+    "start_date_local": "2026-02-19T15:44:15",
+    "type": "WeightTraining",
+    "year": 2026
+  },
+  {
+    "date": "2026-02-19",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "21918217257",
+    "moving_time": 1724.5469970703125,
+    "raw_activity_type": "yoga",
+    "raw_type": "yoga",
+    "start_date_local": "2026-02-19T16:35:24",
+    "type": "Yoga",
+    "year": 2026
   }
 ]

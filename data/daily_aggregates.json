@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-17T15:15:55.478808+00:00",
+  "generated_at": "2026-02-19T15:15:16.199824+00:00",
   "years": {
     "2024": {
       "Badminton": {
@@ -12761,6 +12761,15 @@
           "distance": 2556.030029296875,
           "elevation_gain": 38.0,
           "moving_time": 2271.0
+        },
+        "2026-02-17": {
+          "activity_ids": [
+            "21900445965"
+          ],
+          "count": 1,
+          "distance": 7785.1201171875,
+          "elevation_gain": 39.0,
+          "moving_time": 7397.960021972656
         }
       },
       "WeightTraining": {
@@ -13187,6 +13196,33 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 358.7170104980469
+        },
+        "2026-02-17": {
+          "activity_ids": [
+            "21897196293"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 718.2650146484375
+        },
+        "2026-02-18": {
+          "activity_ids": [
+            "21907415031"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 394.34600830078125
+        },
+        "2026-02-19": {
+          "activity_ids": [
+            "21917921500"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 525.8939819335938
         }
       },
       "Yoga": {
@@ -13497,6 +13533,33 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 1508.5880126953125
+        },
+        "2026-02-17": {
+          "activity_ids": [
+            "21897590638"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 1787.60302734375
+        },
+        "2026-02-18": {
+          "activity_ids": [
+            "21907646225"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 1389.5880126953125
+        },
+        "2026-02-19": {
+          "activity_ids": [
+            "21918217257"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 1724.5469970703125
         }
       },
       "resort_snowboarding": {
