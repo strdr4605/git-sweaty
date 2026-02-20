@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-19T15:15:16.199824+00:00",
+  "generated_at": "2026-02-20T15:13:29.167223+00:00",
   "years": {
     "2024": {
       "Badminton": {
@@ -12770,6 +12770,25 @@
           "distance": 7785.1201171875,
           "elevation_gain": 39.0,
           "moving_time": 7397.960021972656
+        },
+        "2026-02-19": {
+          "activity_ids": [
+            "21919625453"
+          ],
+          "count": 1,
+          "distance": 4884.35009765625,
+          "elevation_gain": 59.0,
+          "moving_time": 3410.0
+        },
+        "2026-02-20": {
+          "activity_ids": [
+            "21927251039",
+            "21928384255"
+          ],
+          "count": 2,
+          "distance": 4885.0201416015625,
+          "elevation_gain": 49.0,
+          "moving_time": 3777.0
         }
       },
       "WeightTraining": {
