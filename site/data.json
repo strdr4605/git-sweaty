@@ -12585,6 +12585,20 @@
       "subtype": "walking",
       "type": "Walk",
       "year": 2026
+    },
+    {
+      "date": "2026-02-23",
+      "hour": 15,
+      "subtype": "strength_training",
+      "type": "WeightTraining",
+      "year": 2026
+    },
+    {
+      "date": "2026-02-23",
+      "hour": 16,
+      "subtype": "yoga",
+      "type": "Yoga",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -25875,6 +25889,15 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 657.843017578125
+        },
+        "2026-02-23": {
+          "activity_ids": [
+            "21958864938"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 515.2849731445312
         }
       },
       "Yoga": {
@@ -26239,6 +26262,15 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 1769.344970703125
+        },
+        "2026-02-23": {
+          "activity_ids": [
+            "21959112374"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 1586.5340576171875
         }
       },
       "resort_snowboarding": {
@@ -26263,7 +26295,7 @@
       }
     }
   },
-  "generated_at": "2026-02-22T15:04:18.038000+00:00",
+  "generated_at": "2026-02-23T15:16:03.539377+00:00",
   "other_bucket": "OtherSports",
   "repo": "strdr4605/git-sweaty",
   "source": "garmin",
