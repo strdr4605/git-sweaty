@@ -12683,6 +12683,34 @@
       "subtype": "yoga",
       "type": "Yoga",
       "year": 2026
+    },
+    {
+      "date": "2026-02-28",
+      "hour": 15,
+      "subtype": "walking",
+      "type": "Walk",
+      "year": 2026
+    },
+    {
+      "date": "2026-03-01",
+      "hour": 11,
+      "subtype": "walking",
+      "type": "Walk",
+      "year": 2026
+    },
+    {
+      "date": "2026-03-01",
+      "hour": 12,
+      "subtype": "strength_training",
+      "type": "WeightTraining",
+      "year": 2026
+    },
+    {
+      "date": "2026-03-01",
+      "hour": 12,
+      "subtype": "yoga",
+      "type": "Yoga",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -25511,6 +25539,24 @@
           "distance": 2006.739990234375,
           "elevation_gain": 69.0,
           "moving_time": 1348.0
+        },
+        "2026-02-28": {
+          "activity_ids": [
+            "22015279193"
+          ],
+          "count": 1,
+          "distance": 4469.81005859375,
+          "elevation_gain": 53.0,
+          "moving_time": 3590.0
+        },
+        "2026-03-01": {
+          "activity_ids": [
+            "22022347265"
+          ],
+          "count": 1,
+          "distance": 4729.2900390625,
+          "elevation_gain": 40.0,
+          "moving_time": 3444.8259887695312
         }
       },
       "WeightTraining": {
@@ -26045,6 +26091,15 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 600.0
+        },
+        "2026-03-01": {
+          "activity_ids": [
+            "22022877557"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 607.3159790039062
         }
       },
       "Yoga": {
@@ -26463,6 +26518,15 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 1643.3740234375
+        },
+        "2026-03-01": {
+          "activity_ids": [
+            "22023239758"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 1079.697021484375
         }
       },
       "resort_snowboarding": {
@@ -26487,7 +26551,7 @@
       }
     }
   },
-  "generated_at": "2026-02-28T15:02:48.454704+00:00",
+  "generated_at": "2026-03-01T15:03:02.934732+00:00",
   "other_bucket": "OtherSports",
   "repo": "strdr4605/git-sweaty",
   "source": "garmin",

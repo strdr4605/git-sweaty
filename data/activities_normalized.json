@@ -21744,7 +21744,7 @@
     "name": "Strength",
     "raw_activity_type": "strength_training",
     "raw_type": "strength_training",
-    "start_date_local": "2026-02-28T13:10:45",
+    "start_date_local": "2026-02-28T13:10:00",
     "type": "WeightTraining",
     "year": 2026
   },
@@ -21758,6 +21758,58 @@
     "raw_activity_type": "yoga",
     "raw_type": "yoga",
     "start_date_local": "2026-02-28T14:20:49",
+    "type": "Yoga",
+    "year": 2026
+  },
+  {
+    "date": "2026-02-28",
+    "distance": 4469.81005859375,
+    "elevation_gain": 53.0,
+    "id": "22015279193",
+    "moving_time": 3590.0,
+    "name": "Chisinau Walking",
+    "raw_activity_type": "walking",
+    "raw_type": "walking",
+    "start_date_local": "2026-02-28T15:35:05",
+    "type": "Walk",
+    "year": 2026
+  },
+  {
+    "date": "2026-03-01",
+    "distance": 4729.2900390625,
+    "elevation_gain": 40.0,
+    "id": "22022347265",
+    "moving_time": 3444.8259887695312,
+    "name": "Chisinau Walking",
+    "raw_activity_type": "walking",
+    "raw_type": "walking",
+    "start_date_local": "2026-03-01T11:11:39",
+    "type": "Walk",
+    "year": 2026
+  },
+  {
+    "date": "2026-03-01",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "22022877557",
+    "moving_time": 607.3159790039062,
+    "name": "Gym Sandbag",
+    "raw_activity_type": "strength_training",
+    "raw_type": "strength_training",
+    "start_date_local": "2026-03-01T12:20:26",
+    "type": "WeightTraining",
+    "year": 2026
+  },
+  {
+    "date": "2026-03-01",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "22023239758",
+    "moving_time": 1079.697021484375,
+    "name": "Yoga",
+    "raw_activity_type": "yoga",
+    "raw_type": "yoga",
+    "start_date_local": "2026-03-01T12:53:00",
     "type": "Yoga",
     "year": 2026
   }
