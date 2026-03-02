@@ -21812,5 +21812,31 @@
     "start_date_local": "2026-03-01T12:53:00",
     "type": "Yoga",
     "year": 2026
+  },
+  {
+    "date": "2026-03-02",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "22030762147",
+    "moving_time": 663.0,
+    "name": "Tranquility",
+    "raw_activity_type": "breathwork",
+    "raw_type": "breathwork",
+    "start_date_local": "2026-03-02T01:45:56",
+    "type": "breathwork",
+    "year": 2026
+  },
+  {
+    "date": "2026-03-02",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "22034565809",
+    "moving_time": 450.2070007324219,
+    "name": "Tired Strength",
+    "raw_activity_type": "strength_training",
+    "raw_type": "strength_training",
+    "start_date_local": "2026-03-02T14:02:29",
+    "type": "WeightTraining",
+    "year": 2026
   }
 ]
