@@ -21838,5 +21838,18 @@
     "start_date_local": "2026-03-02T14:02:29",
     "type": "WeightTraining",
     "year": 2026
+  },
+  {
+    "date": "2026-03-02",
+    "distance": 3052.3798828125,
+    "elevation_gain": 7.0,
+    "id": "22038035411",
+    "moving_time": 2971.0,
+    "name": "Chisinau Walking",
+    "raw_activity_type": "walking",
+    "raw_type": "walking",
+    "start_date_local": "2026-03-02T18:51:39",
+    "type": "Walk",
+    "year": 2026
   }
 ]
