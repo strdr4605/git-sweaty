@@ -21942,5 +21942,57 @@
     "start_date_local": "2026-03-05T14:38:04",
     "type": "Walk",
     "year": 2026
+  },
+  {
+    "date": "2026-03-05",
+    "distance": 4529.18017578125,
+    "elevation_gain": 68.0,
+    "id": "22072700851",
+    "moving_time": 3079.0,
+    "name": "Chisinau Walking",
+    "raw_activity_type": "walking",
+    "raw_type": "walking",
+    "start_date_local": "2026-03-05T18:16:22",
+    "type": "Walk",
+    "year": 2026
+  },
+  {
+    "date": "2026-03-05",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "22072920832",
+    "moving_time": 279.0950012207031,
+    "name": "Strength",
+    "raw_activity_type": "strength_training",
+    "raw_type": "strength_training",
+    "start_date_local": "2026-03-05T19:35:06",
+    "type": "WeightTraining",
+    "year": 2026
+  },
+  {
+    "date": "2026-03-06",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "22079150189",
+    "moving_time": 801.3109741210938,
+    "name": "Strength",
+    "raw_activity_type": "strength_training",
+    "raw_type": "strength_training",
+    "start_date_local": "2026-03-06T11:25:26",
+    "type": "WeightTraining",
+    "year": 2026
+  },
+  {
+    "date": "2026-03-06",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "22079460527",
+    "moving_time": 2095.2900390625,
+    "name": "Yoga",
+    "raw_activity_type": "yoga",
+    "raw_type": "yoga",
+    "start_date_local": "2026-03-06T12:23:14",
+    "type": "Yoga",
+    "year": 2026
   }
 ]
