@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-06T15:10:30.286099+00:00",
+  "generated_at": "2026-03-07T15:03:18.587284+00:00",
   "years": {
     "2024": {
       "Badminton": {
@@ -12881,6 +12881,24 @@
           "distance": 6645.22021484375,
           "elevation_gain": 106.0,
           "moving_time": 4813.0
+        },
+        "2026-03-06": {
+          "activity_ids": [
+            "22082256968"
+          ],
+          "count": 1,
+          "distance": 4000.320068359375,
+          "elevation_gain": 34.0,
+          "moving_time": 3179.8499755859375
+        },
+        "2026-03-07": {
+          "activity_ids": [
+            "22088808555"
+          ],
+          "count": 1,
+          "distance": 5309.02001953125,
+          "elevation_gain": 61.0,
+          "moving_time": 3536.6929931640625
         }
       },
       "WeightTraining": {
@@ -13469,6 +13487,15 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 801.3109741210938
+        },
+        "2026-03-07": {
+          "activity_ids": [
+            "22090439637"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 508.60101318359375
         }
       },
       "Yoga": {
@@ -13923,6 +13950,15 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 2095.2900390625
+        },
+        "2026-03-07": {
+          "activity_ids": [
+            "22090909598"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 2003.5369873046875
         }
       },
       "breathwork": {
