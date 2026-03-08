@@ -12837,6 +12837,27 @@
       "subtype": "yoga",
       "type": "Yoga",
       "year": 2026
+    },
+    {
+      "date": "2026-03-08",
+      "hour": 11,
+      "subtype": "walking",
+      "type": "Walk",
+      "year": 2026
+    },
+    {
+      "date": "2026-03-08",
+      "hour": 12,
+      "subtype": "strength_training",
+      "type": "WeightTraining",
+      "year": 2026
+    },
+    {
+      "date": "2026-03-08",
+      "hour": 13,
+      "subtype": "yoga",
+      "type": "Yoga",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -25738,6 +25759,15 @@
           "distance": 5309.02001953125,
           "elevation_gain": 61.0,
           "moving_time": 3536.6929931640625
+        },
+        "2026-03-08": {
+          "activity_ids": [
+            "22100651010"
+          ],
+          "count": 1,
+          "distance": 4032.639892578125,
+          "elevation_gain": 25.0,
+          "moving_time": 3060.8809814453125
         }
       },
       "WeightTraining": {
@@ -26335,6 +26365,15 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 508.60101318359375
+        },
+        "2026-03-08": {
+          "activity_ids": [
+            "22101928839"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 449.00799560546875
         }
       },
       "Yoga": {
@@ -26798,6 +26837,15 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 2003.5369873046875
+        },
+        "2026-03-08": {
+          "activity_ids": [
+            "22102631660"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 2001.636962890625
         }
       },
       "breathwork": {
@@ -26833,7 +26881,7 @@
       }
     }
   },
-  "generated_at": "2026-03-07T15:03:18.611150+00:00",
+  "generated_at": "2026-03-08T15:03:45.799951+00:00",
   "other_bucket": "OtherSports",
   "repo": "strdr4605/git-sweaty",
   "source": "garmin",
