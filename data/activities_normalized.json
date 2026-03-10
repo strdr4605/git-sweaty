@@ -22085,5 +22085,83 @@
     "start_date_local": "2026-03-08T13:35:26",
     "type": "Yoga",
     "year": 2026
+  },
+  {
+    "date": "2026-03-09",
+    "distance": 1673.1300048828125,
+    "elevation_gain": 20.0,
+    "id": "22116301172",
+    "moving_time": 1093.0,
+    "name": "Chisinau Walking",
+    "raw_activity_type": "walking",
+    "raw_type": "walking",
+    "start_date_local": "2026-03-09T18:23:13",
+    "type": "Walk",
+    "year": 2026
+  },
+  {
+    "date": "2026-03-09",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "22116815993",
+    "moving_time": 532.93701171875,
+    "name": "Strength",
+    "raw_activity_type": "strength_training",
+    "raw_type": "strength_training",
+    "start_date_local": "2026-03-09T18:53:32",
+    "type": "WeightTraining",
+    "year": 2026
+  },
+  {
+    "date": "2026-03-09",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "22117098343",
+    "moving_time": 1027.5999755859375,
+    "name": "Yoga",
+    "raw_activity_type": "yoga",
+    "raw_type": "yoga",
+    "start_date_local": "2026-03-09T19:28:26",
+    "type": "Yoga",
+    "year": 2026
+  },
+  {
+    "date": "2026-03-09",
+    "distance": 3035.72998046875,
+    "elevation_gain": 47.0,
+    "id": "22118571109",
+    "moving_time": 1895.0,
+    "name": "Chisinau Walking",
+    "raw_activity_type": "walking",
+    "raw_type": "walking",
+    "start_date_local": "2026-03-09T20:27:59",
+    "type": "Walk",
+    "year": 2026
+  },
+  {
+    "date": "2026-03-10",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "22125554628",
+    "moving_time": 139.7790069580078,
+    "name": "Strength",
+    "raw_activity_type": "strength_training",
+    "raw_type": "strength_training",
+    "start_date_local": "2026-03-10T14:17:53",
+    "type": "WeightTraining",
+    "year": 2026
+  },
+  {
+    "date": "2026-03-10",
+    "distance": 1877.530029296875,
+    "elevation_gain": 15.0,
+    "id": "22125939097",
+    "moving_time": 1355.0,
+    "name": "Chisinau Walking",
+    "raw_activity_type": "walking",
+    "raw_type": "walking",
+    "start_date_local": "2026-03-10T14:31:35",
+    "type": "Walk",
+    "year": 2026
   }
 ]
