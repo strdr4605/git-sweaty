@@ -22241,5 +22241,18 @@
     "start_date_local": "2026-03-12T11:47:13",
     "type": "Yoga",
     "year": 2026
+  },
+  {
+    "date": "2026-03-12",
+    "distance": 10034.66015625,
+    "elevation_gain": 117.0,
+    "id": "22153634971",
+    "moving_time": 8601.793029785156,
+    "name": "Chisinau Walking",
+    "raw_activity_type": "walking",
+    "raw_type": "walking",
+    "start_date_local": "2026-03-12T18:01:00",
+    "type": "Walk",
+    "year": 2026
   }
 ]
