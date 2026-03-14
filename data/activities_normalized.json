@@ -22254,5 +22254,44 @@
     "start_date_local": "2026-03-12T18:01:00",
     "type": "Walk",
     "year": 2026
+  },
+  {
+    "date": "2026-03-13",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "22160953288",
+    "moving_time": 996.9299926757812,
+    "name": "Gym Push/Row",
+    "raw_activity_type": "strength_training",
+    "raw_type": "strength_training",
+    "start_date_local": "2026-03-13T17:12:49",
+    "type": "WeightTraining",
+    "year": 2026
+  },
+  {
+    "date": "2026-03-13",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "22161293848",
+    "moving_time": 1364.029052734375,
+    "name": "Yoga",
+    "raw_activity_type": "yoga",
+    "raw_type": "yoga",
+    "start_date_local": "2026-03-13T17:55:32",
+    "type": "Yoga",
+    "year": 2026
+  },
+  {
+    "date": "2026-03-14",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "22169173811",
+    "moving_time": 305.5790100097656,
+    "name": "For\u0163\u0103",
+    "raw_activity_type": "strength_training",
+    "raw_type": "strength_training",
+    "start_date_local": "2026-03-14T13:16:03",
+    "type": "WeightTraining",
+    "year": 2026
   }
 ]
