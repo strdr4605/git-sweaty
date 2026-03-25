@@ -6,6 +6,12 @@ param(
 Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
 
+if (($null -eq $SetupArgs -or $SetupArgs.Count -eq 0) -and $null -ne $MyInvocation.UnboundArguments -and $MyInvocation.UnboundArguments.Count -gt 0) {
+    $SetupArgs = @($MyInvocation.UnboundArguments | ForEach-Object { [string]$_ })
+} elseif (($null -eq $SetupArgs -or $SetupArgs.Count -eq 0) -and $args.Count -gt 0) {
+    $SetupArgs = @($args | ForEach-Object { [string]$_ })
+}
+
 $UpstreamRepo = if ([string]::IsNullOrWhiteSpace($env:GIT_SWEATY_UPSTREAM_REPO)) {
     "aspain/git-sweaty"
 } else {

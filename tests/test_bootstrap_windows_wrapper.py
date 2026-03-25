@@ -33,6 +33,13 @@ class BootstrapWindowsWrapperTests(unittest.TestCase):
         first_code_line = next(line for line in lines if line.strip())
         self.assertEqual(first_code_line, "param(")
 
+    def test_windows_wrapper_recovers_unbound_setup_args_for_powershell_one_liners(self) -> None:
+        wrapper = self._read_wrapper()
+
+        self.assertIn("$MyInvocation.UnboundArguments", wrapper)
+        self.assertIn("$args.Count -gt 0", wrapper)
+        self.assertIn('$SetupArgs = @($MyInvocation.UnboundArguments | ForEach-Object { [string]$_ })', wrapper)
+
     def test_windows_wrapper_uses_zip_download_and_not_unix_bootstrap(self) -> None:
         wrapper = self._read_wrapper()
 
