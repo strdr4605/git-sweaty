@@ -1,10 +1,10 @@
-Set-StrictMode -Version Latest
-$ErrorActionPreference = "Stop"
-
 param(
     [Parameter(ValueFromRemainingArguments = $true)]
     [string[]]$SetupArgs
 )
+
+Set-StrictMode -Version Latest
+$ErrorActionPreference = "Stop"
 
 $UpstreamRepo = if ([string]::IsNullOrWhiteSpace($env:GIT_SWEATY_UPSTREAM_REPO)) {
     "aspain/git-sweaty"

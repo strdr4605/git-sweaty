@@ -26,6 +26,13 @@ class BootstrapWindowsWrapperTests(unittest.TestCase):
         self.assertIn("scripts\\setup_auth.py", wrapper)
         self.assertNotIn("wsl.exe", wrapper)
 
+    def test_windows_wrapper_declares_param_block_before_executable_statements(self) -> None:
+        with open(WRAPPER_PATH, "r", encoding="utf-8") as f:
+            lines = [line.rstrip("\n") for line in f]
+
+        first_code_line = next(line for line in lines if line.strip())
+        self.assertEqual(first_code_line, "param(")
+
     def test_windows_wrapper_uses_zip_download_and_not_unix_bootstrap(self) -> None:
         wrapper = self._read_wrapper()
 
