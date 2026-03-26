@@ -262,13 +262,15 @@ def _prompt_secret_masked(prompt: str) -> str:
 def _assert_gh_ready() -> None:
     if shutil.which("gh") is None:
         raise RuntimeError(
-            "GitHub CLI (`gh`) is required. Install it from https://cli.github.com/ and run `gh auth login`."
+            "GitHub CLI (`gh`) is required. Re-run via `scripts/bootstrap.sh` for guided install/auth, "
+            "or install it from https://cli.github.com/ and run `gh auth login`."
         )
 
     status = _run(["gh", "auth", "status"], check=False)
     if status.returncode != 0:
         raise RuntimeError(
-            "GitHub CLI is not authenticated. Run `gh auth login` and re-run this script."
+            "GitHub CLI is not authenticated. Re-run via `scripts/bootstrap.sh` for guided auth, "
+            "or run `gh auth login` and re-run this script."
         )
 
 

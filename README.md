@@ -1,3 +1,11 @@
+<p align="center">
+  <img src="./site/git-sweaty-logo.svg" alt="git-sweaty-logo" /><br>
+  <sub>
+    (create your own README banner like this
+    <a href="https://github.com/aspain/heatmap-logo">here</a>)
+  </sub>
+</p>
+
 # Workout --> Interactive Dashboard
 
 Turn your Strava and Garmin activities into GitHub-style contribution graphs. Automatically generate a free, interactive dashboard updated daily on GitHub Pages.  
@@ -12,19 +20,33 @@ Once setup is complete, this dashboard link will automatically update to your ow
 
 ## Quick Start
 
-### Run:
+### macOS / Linux
+
+Run this in Terminal.
 
 ```bash
 bash <(curl -fsSL https://raw.githubusercontent.com/aspain/git-sweaty/main/scripts/bootstrap.sh)
 ```
 
+### Windows
+
+Run this in PowerShell.
+
+```powershell
+irm https://raw.githubusercontent.com/aspain/git-sweaty/main/scripts/bootstrap.ps1 | iex
+```
+
+The Windows bootstrap runs natively in PowerShell. It keeps setup in the same terminal session, opens your browser only when sign-in or OAuth approval is needed, and does not require WSL.
+
+---
+
+#### Once Setup Starts
+
+You will need a GitHub account. If GitHub CLI (`gh`) or Python 3 are not installed yet, the bootstrap script can offer to install them automatically with `winget` on a typical personal Windows laptop.
+
 You will be prompted for:
 - Setup mode:
-  - Recommended (Online-only, no local clone): setup script will either:
-    - use an existing fork
-    - create a new fork
-    - configure an existing writable repo
-  - Advanced (Local clone + git remotes): setup script will prefer an existing compatible local clone when available, or guide fork-and-clone setup, then complete the rest of the setup.
+  - Recommended (Online-only, no local clone): on Windows, the PowerShell bootstrap uses or creates your fork automatically and then continues setup without requiring a local clone.
   - Manual (No setup scripts): follow [Manual Setup (No Scripts)](#manual-setup-no-scripts)
 - GitHub Pages custom domain (if you have one, for example `yoursite.example.com`)
 - Source (`strava` or `garmin`)
@@ -40,19 +62,25 @@ You will be prompted for:
 The setup may take several minutes to complete when run for the first time. If any automation step fails, the script prints steps to remedy the failed step.  
 Once the script succeeds, it will provide the URL for your dashboard.
 
-### Updating Your Repository
+---
+
+## Updating Your Repository
 
 - To pull in new updates and features from the original repo, use GitHub's **Sync fork** button on your fork's `main` branch.
 - Activity data is stored on a dedicated `dashboard-data` branch and deployed from there
 - `main` is intentionally kept free of generated `data/` and `site/data.json` artifacts so fork sync process stays cleaner.
 - After syncing, manually run [Sync Heatmaps](../../actions/workflows/sync.yml) if you want your dashboard refreshed immediately. Otherwise updates will deploy at the next scheduled run.
 
-### Switching Sources Later
+---
+
+## Switching Sources Later
 
 You can switch between `strava` and `garmin` at any time.
 
 - Re-run `./scripts/bootstrap.sh` (or the quickstart curl command) and choose a different source.
 - If you re-run setup and choose the same source, setup asks whether to force a one-time full backfill. You can also update your response for unit preference, day of week start, placing strava/garmin profle link on your dashboard, and whether you'd like activity links in the tooltips.
+
+---
 
 ## Other Features
 
@@ -64,41 +92,7 @@ You can switch between `strava` and `garmin` at any time.
 - Strava backfill state is stored in `data/backfill_state_strava.json`; Garmin backfill state is stored in `data/backfill_state_garmin.json`. If a backfill hits API limits (unlikely), this state allows the daily refresh automation to pick back up where it left off.
 - The Sync action workflow includes a toggle labeled `Reset backfill cursor and re-fetch full history for the selected source` which forces a one-time full backfill. This is useful if you add/delete/modify activities which have already been loaded.
 
-## Configuration (Optional)
-
-Everything in this section is optional. Defaults work without changes.
-Base settings live in `config.yaml`, and `config.local.yaml` overrides them when present.
-
-Auth + source settings:
-- `source` (`strava` or `garmin`)
-- `strava.client_id`, `strava.client_secret`, `strava.refresh_token`, `strava.profile_url`
-- `strava.include_activity_urls` (when `true`, yearly tooltip details include links to individual Strava activities)
-- `garmin.token_store_b64`, `garmin.email`, `garmin.password`, `garmin.profile_url`
-- `garmin.include_activity_urls` (when `true`, yearly tooltip details include links to individual Garmin activities)
-- `garmin.strict_token_only` (when `true`, Garmin sync requires `garmin.token_store_b64` and does not fall back to email/password auth)
-
-Sync scope + backfill behavior:
-- `sync.start_date` (optional `YYYY-MM-DD` lower bound for history)
-- `sync.lookback_years` (optional rolling lower bound; used only when `sync.start_date` is unset)
-- `sync.recent_days` (sync recent activities even while backfilling)
-- `sync.resume_backfill` (persist cursor so backfills continue across scheduled runs)
-- `sync.per_page` (page size used when fetching provider activities; default `200`)
-- `sync.prune_deleted` (remove local activities no longer returned by the provider; pruning only happens on runs that perform a full backfill scan)
-
-Activity type behavior:
-- `activities.types` (featured order in UI, and acts as allowlist when `activities.include_all_types` is `false`)
-- `activities.include_all_types` (when `true`, include all seen sport types; when `false`, include only `activities.types`)
-- `activities.exclude_types` (explicit type exclusions, even when `include_all_types` is `true`)
-- `activities.type_aliases` (map raw provider type names to canonical type names before grouping/filtering)
-- `activities.group_aliases` (map canonical type names to explicit grouped labels)
-- `activities.group_other_types` (when `true`, non-featured types are grouped into broader buckets; repo default is `false`)
-- `activities.other_bucket` (fallback group name when grouped type matching has no hit)
-
-Display + rate-limit settings:
-- `units.distance` (`mi` or `km`)
-- `units.elevation` (`ft` or `m`)
-- `heatmaps.week_start` (`sunday` or `monday`)
-- `rate_limits.*` (Strava API pacing caps used by sync; ignored for Garmin)
+---
 
 ## Manual Setup (No Scripts)
 

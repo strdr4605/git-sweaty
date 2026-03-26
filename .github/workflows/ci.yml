@@ -1,0 +1,127 @@
+name: CI
+
+on:
+  workflow_dispatch:
+
+jobs:
+  python-tests:
+    if: github.repository == 'aspain/git-sweaty'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run test suite
+        run: python -m unittest discover -s tests -v
+
+  windows-bootstrap-smoke:
+    if: github.repository == 'aspain/git-sweaty'
+    runs-on: windows-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Smoke test native Windows bootstrap
+        shell: powershell
+        run: |
+          $ErrorActionPreference = "Stop"
+
+          $fixtureRoot = Join-Path $env:RUNNER_TEMP "windows-bootstrap-fixture"
+          $archiveDir = Join-Path $fixtureRoot "archive"
+          $archiveSourceRoot = Join-Path $fixtureRoot "archive-source"
+          $archiveSourceRepo = Join-Path $archiveSourceRoot "git-sweaty-main"
+          $fakeBin = Join-Path $fixtureRoot "fake-bin"
+          $zipPath = Join-Path $archiveDir "git-sweaty.zip"
+          $pyLog = Join-Path $fixtureRoot "py-invocation.log"
+
+          New-Item -ItemType Directory -Path $archiveDir -Force | Out-Null
+          New-Item -ItemType Directory -Path $archiveSourceRepo -Force | Out-Null
+          New-Item -ItemType Directory -Path $fakeBin -Force | Out-Null
+          Copy-Item -Path (Join-Path $env:GITHUB_WORKSPACE "*") -Destination $archiveSourceRepo -Recurse -Force
+          Compress-Archive -Path $archiveSourceRepo -DestinationPath $zipPath -Force
+
+          $ghShim = @'
+          @echo off
+          setlocal
+          if "%1"=="auth" (
+            if "%2"=="status" exit /b 0
+            if "%2"=="login" exit /b 0
+          )
+          if "%1"=="api" (
+            if "%2"=="user" (
+              echo smoketest
+              exit /b 0
+            )
+            exit /b 0
+          )
+          if "%1"=="repo" (
+            if "%2"=="view" exit /b 0
+            if "%2"=="fork" exit /b 0
+          )
+          exit /b 0
+          '@
+          Set-Content -Path (Join-Path $fakeBin "gh.cmd") -Value $ghShim
+
+          $pyShim = @"
+          @echo off
+          setlocal
+          if "%1"=="-3" (
+            if "%2"=="--version" (
+              echo Python 3.12.0
+              exit /b 0
+            )
+            >> "$pyLog" echo %*
+            exit /b 0
+          )
+          if "%1"=="--version" (
+            echo Python 3.12.0
+            exit /b 0
+          )
+          >> "$pyLog" echo %*
+          exit /b 0
+          "@
+          Set-Content -Path (Join-Path $fakeBin "py.cmd") -Value $pyShim
+
+          $realPython = (Get-Command python).Source
+          $server = Start-Process -FilePath $realPython `
+            -ArgumentList @("-m", "http.server", "8765", "--bind", "127.0.0.1", "--directory", $archiveDir) `
+            -PassThru `
+            -WindowStyle Hidden
+
+          try {
+            Start-Sleep -Seconds 2
+
+            $env:Path = "$fakeBin;$env:Path"
+            $env:GIT_SWEATY_BOOTSTRAP_ARCHIVE_URL = "http://127.0.0.1:8765/git-sweaty.zip"
+            $env:GIT_SWEATY_BOOTSTRAP_ASSUME_YES = "1"
+            $env:GIT_SWEATY_BOOTSTRAP_GH_PATH = Join-Path $fakeBin "gh.cmd"
+            $env:GIT_SWEATY_BOOTSTRAP_PY_LAUNCHER_PATH = Join-Path $fakeBin "py.cmd"
+
+            & "$env:GITHUB_WORKSPACE\scripts\bootstrap.ps1"
+
+            if ($LASTEXITCODE -ne 0) {
+              throw "bootstrap.ps1 failed with exit code $LASTEXITCODE"
+            }
+
+            if (-not (Test-Path $pyLog)) {
+              throw "Expected bootstrap.ps1 to invoke the Python setup runtime."
+            }
+
+            $pyInvocation = Get-Content -Path $pyLog -Raw
+            Write-Host "Captured Python invocation:"
+            Write-Host $pyInvocation
+            if ($pyInvocation -notmatch "setup_auth\.py") {
+              throw "Expected bootstrap.ps1 to launch setup_auth.py."
+            }
+            if ($pyInvocation -notmatch "--repo smoketest/git-sweaty") {
+              throw "Expected bootstrap.ps1 to target the detected default fork."
+            }
+          } finally {
+            if ($null -ne $server -and -not $server.HasExited) {
+              Stop-Process -Id $server.Id -Force
+            }
+          }

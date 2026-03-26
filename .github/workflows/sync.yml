@@ -40,13 +40,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           ref: ${{ github.ref_name }}
           fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.11"
 
@@ -198,8 +198,8 @@ jobs:
           if git ls-remote --exit-code --heads origin "${branch}" >/dev/null; then
             git fetch origin "${branch}"
             rm -rf data site/data.json
-            git checkout "origin/${branch}" -- data || true
-            git checkout "origin/${branch}" -- site/data.json || true
+            git restore --source "origin/${branch}" --worktree -- data || true
+            git restore --source "origin/${branch}" --worktree -- site/data.json || true
             echo "Restored persisted state from ${branch}."
           else
             echo "No ${branch} branch yet; starting with an empty state."
@@ -326,8 +326,7 @@ jobs:
             echo "README unchanged."
             exit 0
           fi
-          git add README.md
-          git commit -m "docs: set dashboard URL for this fork"
+          git commit --only -m "docs: set dashboard URL for this fork" -- README.md
           if ! git push origin HEAD:${GITHUB_REF_NAME}; then
             echo "Warning: unable to push README update; continuing without it."
           fi
