@@ -22800,5 +22800,31 @@
     "start_date_local": "2026-04-02T13:48:31",
     "type": "Walk",
     "year": 2026
+  },
+  {
+    "date": "2026-04-02",
+    "distance": 5479.56005859375,
+    "elevation_gain": 60.0,
+    "id": "22386215467",
+    "moving_time": 3444.5899963378906,
+    "name": "Chisinau Walking",
+    "raw_activity_type": "walking",
+    "raw_type": "walking",
+    "start_date_local": "2026-04-02T18:37:34",
+    "type": "Walk",
+    "year": 2026
+  },
+  {
+    "date": "2026-04-03",
+    "distance": 2793.7099609375,
+    "elevation_gain": 30.0,
+    "id": "22392255909",
+    "moving_time": 2504.0,
+    "name": "Chisinau Walking",
+    "raw_activity_type": "walking",
+    "raw_type": "walking",
+    "start_date_local": "2026-04-03T13:06:53",
+    "type": "Walk",
+    "year": 2026
   }
 ]
