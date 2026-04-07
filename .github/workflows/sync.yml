@@ -2,7 +2,7 @@ name: Sync Heatmaps
 
 on:
   schedule:
-    - cron: "0 15 * * *"
+    - cron: "0 15 1,4,7,10,13,16,19,22,25,28 * *"
   workflow_dispatch:
     inputs:
       source:
@@ -233,6 +233,50 @@ jobs:
             args+=(--update-readme-link)
           fi
           python scripts/run_pipeline.py "${args[@]}"
+
+      - name: Rotate Garmin token secret (optional)
+        env:
+          SYNC_SOURCE: ${{ env.SYNC_SOURCE }}
+          GARMIN_TOKENS_B64: ${{ secrets.GARMIN_TOKENS_B64 }}
+          GARMIN_SECRET_UPDATE_TOKEN: ${{ secrets.GARMIN_SECRET_UPDATE_TOKEN }}
+        run: |
+          set -euo pipefail
+          if [[ "${SYNC_SOURCE}" != "garmin" ]]; then
+            echo "Skipping Garmin token rotation: source=${SYNC_SOURCE}."
+            exit 0
+          fi
+          if [[ ! -d ".garmin_token_store" ]]; then
+            echo "No local Garmin token store found; skipping rotation."
+            exit 0
+          fi
+
+          new_tokens_b64="$(python -c '
+          from garmin_token_store import encode_token_store_dir_as_zip_b64
+          print(encode_token_store_dir_as_zip_b64(".garmin_token_store"))
+          ' 2>/dev/null || true)"
+          if [[ -z "${new_tokens_b64}" ]]; then
+            echo "Failed to encode Garmin token store; skipping rotation."
+            exit 0
+          fi
+          if [[ "${new_tokens_b64}" == "${GARMIN_TOKENS_B64}" ]]; then
+            echo "Garmin token unchanged."
+            exit 0
+          fi
+
+          if [[ -z "${GARMIN_SECRET_UPDATE_TOKEN}" ]]; then
+            echo "::warning::Garmin token refreshed, but GARMIN_SECRET_UPDATE_TOKEN is not configured. Update GARMIN_TOKENS_B64 manually."
+            exit 0
+          fi
+          if ! command -v gh >/dev/null 2>&1; then
+            echo "::warning::gh CLI is unavailable on runner; cannot auto-rotate GARMIN_TOKENS_B64."
+            exit 0
+          fi
+
+          if printf '%s' "${new_tokens_b64}" | GH_TOKEN="${GARMIN_SECRET_UPDATE_TOKEN}" gh secret set GARMIN_TOKENS_B64 --repo "${GITHUB_REPOSITORY}" --body -; then
+            echo "Updated GARMIN_TOKENS_B64 from refreshed Garmin token store."
+          else
+            echo "::warning::Failed to update GARMIN_TOKENS_B64 automatically. Update it manually."
+          fi
 
       - name: Stamp repository in site data
         env:
