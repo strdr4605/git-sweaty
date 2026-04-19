@@ -13404,6 +13404,41 @@
       "subtype": "strength_training",
       "type": "WeightTraining",
       "year": 2026
+    },
+    {
+      "date": "2026-04-16",
+      "hour": 14,
+      "subtype": "walking",
+      "type": "Walk",
+      "year": 2026
+    },
+    {
+      "date": "2026-04-16",
+      "hour": 20,
+      "subtype": "walking",
+      "type": "Walk",
+      "year": 2026
+    },
+    {
+      "date": "2026-04-17",
+      "hour": 18,
+      "subtype": "strength_training",
+      "type": "WeightTraining",
+      "year": 2026
+    },
+    {
+      "date": "2026-04-17",
+      "hour": 19,
+      "subtype": "walking",
+      "type": "Walk",
+      "year": 2026
+    },
+    {
+      "date": "2026-04-18",
+      "hour": 16,
+      "subtype": "strength_training",
+      "type": "WeightTraining",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -26533,6 +26568,25 @@
           "distance": 8961.97021484375,
           "elevation_gain": 105.0,
           "moving_time": 6596.731018066406
+        },
+        "2026-04-16": {
+          "activity_ids": [
+            "22548618790",
+            "22550748920"
+          ],
+          "count": 2,
+          "distance": 11320.4599609375,
+          "elevation_gain": 78.0,
+          "moving_time": 11511.505920410156
+        },
+        "2026-04-17": {
+          "activity_ids": [
+            "22561521485"
+          ],
+          "count": 1,
+          "distance": 3693.9599609375,
+          "elevation_gain": 54.0,
+          "moving_time": 3082.0
         }
       },
       "WeightTraining": {
@@ -27446,6 +27500,24 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 301.60400390625
+        },
+        "2026-04-17": {
+          "activity_ids": [
+            "22560854337"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 331.7309875488281
+        },
+        "2026-04-18": {
+          "activity_ids": [
+            "22571024901"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 390.70098876953125
         }
       },
       "Yoga": {
@@ -28026,7 +28098,7 @@
     }
   },
   "garmin_profile_url": "https://connect.garmin.com/modern/profile/b8379fe7-f4a0-4e07-a963-378980c2d531",
-  "generated_at": "2026-04-16T15:30:55.804696+00:00",
+  "generated_at": "2026-04-19T15:12:05.321428+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://connect.garmin.com/modern/profile/b8379fe7-f4a0-4e07-a963-378980c2d531",
   "repo": "strdr4605/git-sweaty",
