@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-22T15:26:37.071430+00:00",
+  "generated_at": "2026-04-25T15:13:22.729050+00:00",
   "years": {
     "2024": {
       "Badminton": {
@@ -13166,6 +13166,36 @@
           "distance": 6683.9000244140625,
           "elevation_gain": 63.0,
           "moving_time": 5834.0
+        },
+        "2026-04-23": {
+          "activity_ids": [
+            "22629755608",
+            "22634452245"
+          ],
+          "count": 2,
+          "distance": 8436.110107421875,
+          "elevation_gain": 111.0,
+          "moving_time": 5672.011016607285
+        },
+        "2026-04-24": {
+          "activity_ids": [
+            "22643237145",
+            "22646546855"
+          ],
+          "count": 2,
+          "distance": 7679.47021484375,
+          "elevation_gain": 112.0,
+          "moving_time": 7162.4930419921875
+        },
+        "2026-04-25": {
+          "activity_ids": [
+            "22654148900",
+            "22654162665"
+          ],
+          "count": 2,
+          "distance": 8613.68017578125,
+          "elevation_gain": 115.0,
+          "moving_time": 5950.908996582031
         }
       },
       "WeightTraining": {
@@ -14124,6 +14154,43 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 340.5069885253906
+        },
+        "2026-04-22": {
+          "activity_ids": [
+            "22622926314"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 197.36300659179688
+        },
+        "2026-04-23": {
+          "activity_ids": [
+            "22630775596"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 487.66400146484375
+        },
+        "2026-04-24": {
+          "activity_ids": [
+            "22643238206",
+            "22644458886"
+          ],
+          "count": 2,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 472.35400390625
+        },
+        "2026-04-25": {
+          "activity_ids": [
+            "22654153467"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 319.6549987792969
         }
       },
       "Yoga": {
