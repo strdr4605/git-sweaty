@@ -13565,6 +13565,62 @@
       "subtype": "walking",
       "type": "Walk",
       "year": 2026
+    },
+    {
+      "date": "2026-04-25",
+      "hour": 19,
+      "subtype": "dance",
+      "type": "dance",
+      "year": 2026
+    },
+    {
+      "date": "2026-04-26",
+      "hour": 17,
+      "subtype": "walking",
+      "type": "Walk",
+      "year": 2026
+    },
+    {
+      "date": "2026-04-26",
+      "hour": 18,
+      "subtype": "table_tennis",
+      "type": "TableTennis",
+      "year": 2026
+    },
+    {
+      "date": "2026-04-26",
+      "hour": 20,
+      "subtype": "strength_training",
+      "type": "WeightTraining",
+      "year": 2026
+    },
+    {
+      "date": "2026-04-27",
+      "hour": 16,
+      "subtype": "walking",
+      "type": "Walk",
+      "year": 2026
+    },
+    {
+      "date": "2026-04-27",
+      "hour": 19,
+      "subtype": "strength_training",
+      "type": "WeightTraining",
+      "year": 2026
+    },
+    {
+      "date": "2026-04-27",
+      "hour": 19,
+      "subtype": "walking",
+      "type": "Walk",
+      "year": 2026
+    },
+    {
+      "date": "2026-04-28",
+      "hour": 16,
+      "subtype": "strength_training",
+      "type": "WeightTraining",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -26115,6 +26171,17 @@
       }
     },
     "2026": {
+      "TableTennis": {
+        "2026-04-26": {
+          "activity_ids": [
+            "22669179412"
+          ],
+          "count": 1,
+          "distance": 119.80000305175781,
+          "elevation_gain": 0.0,
+          "moving_time": 103.0
+        }
+      },
       "Walk": {
         "2026-01-03": {
           "activity_ids": [
@@ -26763,6 +26830,25 @@
           "distance": 8613.68017578125,
           "elevation_gain": 115.0,
           "moving_time": 5950.908996582031
+        },
+        "2026-04-26": {
+          "activity_ids": [
+            "22669177248"
+          ],
+          "count": 1,
+          "distance": 4324.1298828125,
+          "elevation_gain": 54.0,
+          "moving_time": 2823.0
+        },
+        "2026-04-27": {
+          "activity_ids": [
+            "22677264175",
+            "22680030544"
+          ],
+          "count": 2,
+          "distance": 5618.22998046875,
+          "elevation_gain": 88.0,
+          "moving_time": 3823.8109741210938
         }
       },
       "WeightTraining": {
@@ -27758,6 +27844,33 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 319.6549987792969
+        },
+        "2026-04-26": {
+          "activity_ids": [
+            "22669951222"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 282.02301025390625
+        },
+        "2026-04-27": {
+          "activity_ids": [
+            "22679414455"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 378.9729919433594
+        },
+        "2026-04-28": {
+          "activity_ids": [
+            "22689618593"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 198.00799560546875
         }
       },
       "Yoga": {
@@ -28315,6 +28428,17 @@
           "moving_time": 663.0
         }
       },
+      "dance": {
+        "2026-04-25": {
+          "activity_ids": [
+            "22658674194"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 5607.72705078125
+        }
+      },
       "resort_snowboarding": {
         "2026-01-05": {
           "activity_ids": [
@@ -28338,7 +28462,7 @@
     }
   },
   "garmin_profile_url": "https://connect.garmin.com/modern/profile/b8379fe7-f4a0-4e07-a963-378980c2d531",
-  "generated_at": "2026-04-25T15:13:22.754230+00:00",
+  "generated_at": "2026-04-28T15:46:06.465340+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://connect.garmin.com/modern/profile/b8379fe7-f4a0-4e07-a963-378980c2d531",
   "repo": "strdr4605/git-sweaty",
@@ -28384,6 +28508,10 @@
       "accent": "#ffbe0b",
       "label": "Breathwork"
     },
+    "dance": {
+      "accent": "#fb5607",
+      "label": "Dance"
+    },
     "fishing_v2": {
       "accent": "#fb5607",
       "label": "Fishing v2"
@@ -28423,6 +28551,7 @@
     "breathwork",
     "multi_sport",
     "tennis_v2",
+    "dance",
     "fishing_v2",
     "incident_detected",
     "kayaking_v2"
