@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-28T15:46:06.439708+00:00",
+  "generated_at": "2026-05-01T15:20:12.639466+00:00",
   "years": {
     "2024": {
       "Badminton": {
@@ -12557,6 +12557,16 @@
           "distance": 119.80000305175781,
           "elevation_gain": 0.0,
           "moving_time": 103.0
+        },
+        "2026-04-30": {
+          "activity_ids": [
+            "22714593803",
+            "22715280177"
+          ],
+          "count": 2,
+          "distance": 22.959999322891235,
+          "elevation_gain": 0.0,
+          "moving_time": 586.0560302734375
         }
       },
       "Walk": {
@@ -13226,6 +13236,24 @@
           "distance": 5618.22998046875,
           "elevation_gain": 88.0,
           "moving_time": 3823.8109741210938
+        },
+        "2026-04-29": {
+          "activity_ids": [
+            "22701600482"
+          ],
+          "count": 1,
+          "distance": 4086.010009765625,
+          "elevation_gain": 42.0,
+          "moving_time": 3809.3740005493164
+        },
+        "2026-04-30": {
+          "activity_ids": [
+            "22712377698"
+          ],
+          "count": 1,
+          "distance": 4002.300048828125,
+          "elevation_gain": 62.0,
+          "moving_time": 2657.97998046875
         }
       },
       "WeightTraining": {
@@ -14248,6 +14276,35 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 198.00799560546875
+        },
+        "2026-04-29": {
+          "activity_ids": [
+            "22700434331"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 363.9930114746094
+        },
+        "2026-04-30": {
+          "activity_ids": [
+            "22716304484"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 523.5969848632812
+        }
+      },
+      "Workout": {
+        "2026-04-25": {
+          "activity_ids": [
+            "22726473398"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 10.522000312805176
         }
       },
       "Yoga": {
