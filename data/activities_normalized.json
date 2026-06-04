@@ -24282,5 +24282,83 @@
     "start_date_local": "2026-05-30T18:47:54",
     "type": "WeightTraining",
     "year": 2026
+  },
+  {
+    "date": "2026-05-31",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "23104575835",
+    "moving_time": 211.3780059814453,
+    "name": "For\u0163\u0103",
+    "raw_activity_type": "strength_training",
+    "raw_type": "strength_training",
+    "start_date_local": "2026-05-31T21:22:37",
+    "type": "WeightTraining",
+    "year": 2026
+  },
+  {
+    "date": "2026-06-01",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "23104576680",
+    "moving_time": 168.2209930419922,
+    "name": "For\u0163\u0103",
+    "raw_activity_type": "strength_training",
+    "raw_type": "strength_training",
+    "start_date_local": "2026-06-01T21:07:48",
+    "type": "WeightTraining",
+    "year": 2026
+  },
+  {
+    "date": "2026-06-01",
+    "distance": 40.7599983215332,
+    "elevation_gain": 0.0,
+    "id": "23104577730",
+    "moving_time": 59.0,
+    "name": "Table Tennis",
+    "raw_activity_type": "table_tennis",
+    "raw_type": "table_tennis",
+    "start_date_local": "2026-06-01T21:18:50",
+    "type": "TableTennis",
+    "year": 2026
+  },
+  {
+    "date": "2026-06-01",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "23104578408",
+    "moving_time": 157.47000122070312,
+    "name": "For\u0163\u0103",
+    "raw_activity_type": "strength_training",
+    "raw_type": "strength_training",
+    "start_date_local": "2026-06-01T21:41:59",
+    "type": "WeightTraining",
+    "year": 2026
+  },
+  {
+    "date": "2026-06-02",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "23108512885",
+    "moving_time": 261.15899658203125,
+    "name": "For\u0163\u0103",
+    "raw_activity_type": "strength_training",
+    "raw_type": "strength_training",
+    "start_date_local": "2026-06-02T22:37:35",
+    "type": "WeightTraining",
+    "year": 2026
+  },
+  {
+    "date": "2026-06-03",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "23118699394",
+    "moving_time": 140.88400268554688,
+    "name": "For\u0163\u0103",
+    "raw_activity_type": "strength_training",
+    "raw_type": "strength_training",
+    "start_date_local": "2026-06-03T20:19:36",
+    "type": "WeightTraining",
+    "year": 2026
   }
 ]
