@@ -24464,5 +24464,44 @@
     "start_date_local": "2026-06-09T20:25:20",
     "type": "WeightTraining",
     "year": 2026
+  },
+  {
+    "date": "2026-06-10",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "23203150324",
+    "moving_time": 308.4020080566406,
+    "name": "ECOL (Every Chicken \ud83d\udc14 on Liviu) HARD",
+    "raw_activity_type": "strength_training",
+    "raw_type": "strength_training",
+    "start_date_local": "2026-06-10T20:36:54",
+    "type": "WeightTraining",
+    "year": 2026
+  },
+  {
+    "date": "2026-06-11",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "23214710792",
+    "moving_time": 232.75999450683594,
+    "name": "For\u0163\u0103",
+    "raw_activity_type": "strength_training",
+    "raw_type": "strength_training",
+    "start_date_local": "2026-06-11T20:32:28",
+    "type": "WeightTraining",
+    "year": 2026
+  },
+  {
+    "date": "2026-06-12",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "23227326813",
+    "moving_time": 189.6179962158203,
+    "name": "For\u0163\u0103",
+    "raw_activity_type": "strength_training",
+    "raw_type": "strength_training",
+    "start_date_local": "2026-06-12T20:17:34",
+    "type": "WeightTraining",
+    "year": 2026
   }
 ]
