@@ -24479,6 +24479,19 @@
     "year": 2026
   },
   {
+    "date": "2026-06-10",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "23257330289",
+    "moving_time": 8.305999755859375,
+    "name": "For\u0163\u0103",
+    "raw_activity_type": "strength_training",
+    "raw_type": "strength_training",
+    "start_date_local": "2026-06-10T12:48:17",
+    "type": "WeightTraining",
+    "year": 2026
+  },
+  {
     "date": "2026-06-11",
     "distance": 0.0,
     "elevation_gain": 0.0,
@@ -24501,6 +24514,71 @@
     "raw_activity_type": "strength_training",
     "raw_type": "strength_training",
     "start_date_local": "2026-06-12T20:17:34",
+    "type": "WeightTraining",
+    "year": 2026
+  },
+  {
+    "date": "2026-06-13",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "23237806336",
+    "moving_time": 281.1629943847656,
+    "name": "For\u0163\u0103",
+    "raw_activity_type": "strength_training",
+    "raw_type": "strength_training",
+    "start_date_local": "2026-06-13T20:43:03",
+    "type": "WeightTraining",
+    "year": 2026
+  },
+  {
+    "date": "2026-06-13",
+    "distance": 4364.169921875,
+    "elevation_gain": 98.0,
+    "id": "23239573470",
+    "moving_time": 2914.5380249023438,
+    "name": "Chisinau Walking",
+    "raw_activity_type": "walking",
+    "raw_type": "walking",
+    "start_date_local": "2026-06-13T20:52:39",
+    "type": "Walk",
+    "year": 2026
+  },
+  {
+    "date": "2026-06-14",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "23249819423",
+    "moving_time": 167.48300170898438,
+    "name": "For\u0163\u0103",
+    "raw_activity_type": "strength_training",
+    "raw_type": "strength_training",
+    "start_date_local": "2026-06-14T20:49:51",
+    "type": "WeightTraining",
+    "year": 2026
+  },
+  {
+    "date": "2026-06-14",
+    "distance": 2053.590087890625,
+    "elevation_gain": 16.0,
+    "id": "23250068349",
+    "moving_time": 1253.0,
+    "name": "Chisinau Walking",
+    "raw_activity_type": "walking",
+    "raw_type": "walking",
+    "start_date_local": "2026-06-14T21:05:29",
+    "type": "Walk",
+    "year": 2026
+  },
+  {
+    "date": "2026-06-15",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "23258993902",
+    "moving_time": 308.1289978027344,
+    "name": "For\u0163\u0103",
+    "raw_activity_type": "strength_training",
+    "raw_type": "strength_training",
+    "start_date_local": "2026-06-15T18:54:43",
     "type": "WeightTraining",
     "year": 2026
   }
