@@ -14202,6 +14202,34 @@
       "subtype": "strength_training",
       "type": "WeightTraining",
       "year": 2026
+    },
+    {
+      "date": "2026-06-16",
+      "hour": 19,
+      "subtype": "strength_training",
+      "type": "WeightTraining",
+      "year": 2026
+    },
+    {
+      "date": "2026-06-17",
+      "hour": 18,
+      "subtype": "strength_training",
+      "type": "WeightTraining",
+      "year": 2026
+    },
+    {
+      "date": "2026-06-17",
+      "hour": 19,
+      "subtype": "walking",
+      "type": "Walk",
+      "year": 2026
+    },
+    {
+      "date": "2026-06-18",
+      "hour": 19,
+      "subtype": "strength_training",
+      "type": "WeightTraining",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -27652,6 +27680,15 @@
           "distance": 2053.590087890625,
           "elevation_gain": 16.0,
           "moving_time": 1253.0
+        },
+        "2026-06-17": {
+          "activity_ids": [
+            "23287362508"
+          ],
+          "count": 1,
+          "distance": 2495.31005859375,
+          "elevation_gain": 12.0,
+          "moving_time": 2105.0
         }
       },
       "WeightTraining": {
@@ -29110,6 +29147,33 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 308.1289978027344
+        },
+        "2026-06-16": {
+          "activity_ids": [
+            "23287354923"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 451.0880126953125
+        },
+        "2026-06-17": {
+          "activity_ids": [
+            "23287355818"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 161.97000122070312
+        },
+        "2026-06-18": {
+          "activity_ids": [
+            "23296598361"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 305.3089904785156
         }
       },
       "Workout": {
@@ -29712,7 +29776,7 @@
     }
   },
   "garmin_profile_url": "https://connect.garmin.com/modern/profile/b8379fe7-f4a0-4e07-a963-378980c2d531",
-  "generated_at": "2026-06-16T16:31:53.409943+00:00",
+  "generated_at": "2026-06-19T15:59:53.100296+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://connect.garmin.com/modern/profile/b8379fe7-f4a0-4e07-a963-378980c2d531",
   "repo": "strdr4605/git-sweaty",
