@@ -24685,5 +24685,70 @@
     "start_date_local": "2026-06-21T15:39:57",
     "type": "WeightTraining",
     "year": 2026
+  },
+  {
+    "date": "2026-06-22",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "23343041690",
+    "moving_time": 384.71099853515625,
+    "name": "For\u0163\u0103",
+    "raw_activity_type": "strength_training",
+    "raw_type": "strength_training",
+    "start_date_local": "2026-06-22T20:44:50",
+    "type": "WeightTraining",
+    "year": 2026
+  },
+  {
+    "date": "2026-06-23",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "23353199855",
+    "moving_time": 327.56201171875,
+    "name": "For\u0163\u0103",
+    "raw_activity_type": "strength_training",
+    "raw_type": "strength_training",
+    "start_date_local": "2026-06-23T18:34:29",
+    "type": "WeightTraining",
+    "year": 2026
+  },
+  {
+    "date": "2026-06-23",
+    "distance": 110.47000122070312,
+    "elevation_gain": 0.0,
+    "id": "23354474408",
+    "moving_time": 126.0,
+    "name": "Table Tennis",
+    "raw_activity_type": "table_tennis",
+    "raw_type": "table_tennis",
+    "start_date_local": "2026-06-23T19:37:51",
+    "type": "TableTennis",
+    "year": 2026
+  },
+  {
+    "date": "2026-06-24",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "23365721765",
+    "moving_time": 211.24600219726562,
+    "name": "For\u0163\u0103",
+    "raw_activity_type": "strength_training",
+    "raw_type": "strength_training",
+    "start_date_local": "2026-06-24T18:58:39",
+    "type": "WeightTraining",
+    "year": 2026
+  },
+  {
+    "date": "2026-06-25",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "23371803971",
+    "moving_time": 233.32200622558594,
+    "name": "For\u0163\u0103",
+    "raw_activity_type": "strength_training",
+    "raw_type": "strength_training",
+    "start_date_local": "2026-06-25T09:25:14",
+    "type": "WeightTraining",
+    "year": 2026
   }
 ]
