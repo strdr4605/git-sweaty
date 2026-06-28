@@ -24750,5 +24750,44 @@
     "start_date_local": "2026-06-25T09:25:14",
     "type": "WeightTraining",
     "year": 2026
+  },
+  {
+    "date": "2026-06-26",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "23395037612",
+    "moving_time": 239.1179962158203,
+    "name": "For\u0163\u0103",
+    "raw_activity_type": "strength_training",
+    "raw_type": "strength_training",
+    "start_date_local": "2026-06-26T22:09:00",
+    "type": "WeightTraining",
+    "year": 2026
+  },
+  {
+    "date": "2026-06-27",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "23395038445",
+    "moving_time": 212.4250030517578,
+    "name": "For\u0163\u0103",
+    "raw_activity_type": "strength_training",
+    "raw_type": "strength_training",
+    "start_date_local": "2026-06-27T13:30:36",
+    "type": "WeightTraining",
+    "year": 2026
+  },
+  {
+    "date": "2026-06-28",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "23405448568",
+    "moving_time": 340.7049865722656,
+    "name": "For\u0163\u0103",
+    "raw_activity_type": "strength_training",
+    "raw_type": "strength_training",
+    "start_date_local": "2026-06-28T12:27:43",
+    "type": "WeightTraining",
+    "year": 2026
   }
 ]
