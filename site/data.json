@@ -14314,6 +14314,48 @@
       "subtype": "strength_training",
       "type": "WeightTraining",
       "year": 2026
+    },
+    {
+      "date": "2026-06-28",
+      "hour": 21,
+      "subtype": "walking",
+      "type": "Walk",
+      "year": 2026
+    },
+    {
+      "date": "2026-06-29",
+      "hour": 9,
+      "subtype": "strength_training",
+      "type": "WeightTraining",
+      "year": 2026
+    },
+    {
+      "date": "2026-06-29",
+      "hour": 18,
+      "subtype": "strength_training",
+      "type": "WeightTraining",
+      "year": 2026
+    },
+    {
+      "date": "2026-06-29",
+      "hour": 20,
+      "subtype": "walking",
+      "type": "Walk",
+      "year": 2026
+    },
+    {
+      "date": "2026-06-30",
+      "hour": 19,
+      "subtype": "strength_training",
+      "type": "WeightTraining",
+      "year": 2026
+    },
+    {
+      "date": "2026-07-01",
+      "hour": 9,
+      "subtype": "strength_training",
+      "type": "WeightTraining",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -27791,6 +27833,24 @@
           "distance": 2035.050048828125,
           "elevation_gain": 38.0,
           "moving_time": 1237.0
+        },
+        "2026-06-28": {
+          "activity_ids": [
+            "23411170062"
+          ],
+          "count": 1,
+          "distance": 3491.590087890625,
+          "elevation_gain": 46.0,
+          "moving_time": 3228.0
+        },
+        "2026-06-29": {
+          "activity_ids": [
+            "23421960074"
+          ],
+          "count": 1,
+          "distance": 4402.419921875,
+          "elevation_gain": 51.0,
+          "moving_time": 4044.0
         }
       },
       "WeightTraining": {
@@ -29366,6 +29426,34 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 340.7049865722656
+        },
+        "2026-06-29": {
+          "activity_ids": [
+            "23414627802",
+            "23419692127"
+          ],
+          "count": 2,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 417.97999572753906
+        },
+        "2026-06-30": {
+          "activity_ids": [
+            "23432152128"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 240.6840057373047
+        },
+        "2026-07-01": {
+          "activity_ids": [
+            "23438261715"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 284.843994140625
         }
       },
       "Workout": {
@@ -29968,7 +30056,7 @@
     }
   },
   "garmin_profile_url": "https://connect.garmin.com/modern/profile/b8379fe7-f4a0-4e07-a963-378980c2d531",
-  "generated_at": "2026-06-28T15:26:26.132697+00:00",
+  "generated_at": "2026-07-01T15:51:17.736849+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://connect.garmin.com/modern/profile/b8379fe7-f4a0-4e07-a963-378980c2d531",
   "repo": "strdr4605/git-sweaty",
