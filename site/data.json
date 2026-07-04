@@ -14356,6 +14356,27 @@
       "subtype": "strength_training",
       "type": "WeightTraining",
       "year": 2026
+    },
+    {
+      "date": "2026-07-02",
+      "hour": 19,
+      "subtype": "table_tennis",
+      "type": "TableTennis",
+      "year": 2026
+    },
+    {
+      "date": "2026-07-02",
+      "hour": 20,
+      "subtype": "strength_training",
+      "type": "WeightTraining",
+      "year": 2026
+    },
+    {
+      "date": "2026-07-03",
+      "hour": 17,
+      "subtype": "strength_training",
+      "type": "WeightTraining",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -26952,6 +26973,15 @@
           "distance": 110.47000122070312,
           "elevation_gain": 0.0,
           "moving_time": 126.0
+        },
+        "2026-07-02": {
+          "activity_ids": [
+            "23455864664"
+          ],
+          "count": 1,
+          "distance": 26.600000381469727,
+          "elevation_gain": 0.0,
+          "moving_time": 9.0
         }
       },
       "Walk": {
@@ -29454,6 +29484,24 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 284.843994140625
+        },
+        "2026-07-02": {
+          "activity_ids": [
+            "23456064399"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 193.7830047607422
+        },
+        "2026-07-03": {
+          "activity_ids": [
+            "23465852795"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 290.92999267578125
         }
       },
       "Workout": {
@@ -30056,7 +30104,7 @@
     }
   },
   "garmin_profile_url": "https://connect.garmin.com/modern/profile/b8379fe7-f4a0-4e07-a963-378980c2d531",
-  "generated_at": "2026-07-01T15:51:17.736849+00:00",
+  "generated_at": "2026-07-04T15:22:57.387492+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://connect.garmin.com/modern/profile/b8379fe7-f4a0-4e07-a963-378980c2d531",
   "repo": "strdr4605/git-sweaty",
