@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T16:09:14.617006+00:00",
+  "generated_at": "2026-07-19T15:44:56.280375+00:00",
   "years": {
     "2024": {
       "Badminton": {
@@ -13594,6 +13594,24 @@
           "distance": 1996.5699462890625,
           "elevation_gain": 30.0,
           "moving_time": 1823.0
+        },
+        "2026-07-18": {
+          "activity_ids": [
+            "23645117709"
+          ],
+          "count": 1,
+          "distance": 3306.239990234375,
+          "elevation_gain": 38.0,
+          "moving_time": 2985.0
+        },
+        "2026-07-19": {
+          "activity_ids": [
+            "23654684147"
+          ],
+          "count": 1,
+          "distance": 2922.159912109375,
+          "elevation_gain": 53.0,
+          "moving_time": 2017.0
         }
       },
       "WeightTraining": {
@@ -15332,6 +15350,33 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 282.91400146484375
+        },
+        "2026-07-17": {
+          "activity_ids": [
+            "23626496466"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 369.3689880371094
+        },
+        "2026-07-18": {
+          "activity_ids": [
+            "23644550645"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 168.7899932861328
+        },
+        "2026-07-19": {
+          "activity_ids": [
+            "23653653794"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 440.5929870605469
         }
       },
       "Workout": {
@@ -15909,6 +15954,15 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 5607.72705078125
+        },
+        "2026-07-17": {
+          "activity_ids": [
+            "23635637482"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 2407.862060546875
         }
       },
       "resort_snowboarding": {
