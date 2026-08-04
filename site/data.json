@@ -14783,6 +14783,34 @@
       "subtype": "strength_training",
       "type": "WeightTraining",
       "year": 2026
+    },
+    {
+      "date": "2026-08-01",
+      "hour": 19,
+      "subtype": "table_tennis",
+      "type": "TableTennis",
+      "year": 2026
+    },
+    {
+      "date": "2026-08-02",
+      "hour": 20,
+      "subtype": "strength_training",
+      "type": "WeightTraining",
+      "year": 2026
+    },
+    {
+      "date": "2026-08-03",
+      "hour": 20,
+      "subtype": "strength_training",
+      "type": "WeightTraining",
+      "year": 2026
+    },
+    {
+      "date": "2026-08-04",
+      "hour": 18,
+      "subtype": "strength_training",
+      "type": "WeightTraining",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -27480,6 +27508,15 @@
           "distance": 44.380001068115234,
           "elevation_gain": 0.0,
           "moving_time": 44.0
+        },
+        "2026-08-01": {
+          "activity_ids": [
+            "23815852214"
+          ],
+          "count": 1,
+          "distance": 38.380001068115234,
+          "elevation_gain": 0.0,
+          "moving_time": 26.0
         }
       },
       "Walk": {
@@ -30415,6 +30452,33 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 285.68499755859375
+        },
+        "2026-08-02": {
+          "activity_ids": [
+            "23827755588"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 324.1520080566406
+        },
+        "2026-08-03": {
+          "activity_ids": [
+            "23838968204"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 219.74899291992188
+        },
+        "2026-08-04": {
+          "activity_ids": [
+            "23850702113"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 361.90899658203125
         }
       },
       "Workout": {
@@ -31026,7 +31090,7 @@
     }
   },
   "garmin_profile_url": "https://connect.garmin.com/modern/profile/b8379fe7-f4a0-4e07-a963-378980c2d531",
-  "generated_at": "2026-08-01T15:51:50.548458+00:00",
+  "generated_at": "2026-08-04T16:45:46.965030+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://connect.garmin.com/modern/profile/b8379fe7-f4a0-4e07-a963-378980c2d531",
   "repo": "strdr4605/git-sweaty",
