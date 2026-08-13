@@ -25842,5 +25842,70 @@
     "start_date_local": "2026-08-09T15:04:54",
     "type": "Walk",
     "year": 2026
+  },
+  {
+    "date": "2026-08-10",
+    "distance": 4161.33984375,
+    "elevation_gain": 83.0,
+    "id": "23925654338",
+    "moving_time": 2361.0,
+    "name": "Chisinau Walking",
+    "raw_activity_type": "walking",
+    "raw_type": "walking",
+    "start_date_local": "2026-08-10T17:17:15",
+    "type": "Walk",
+    "year": 2026
+  },
+  {
+    "date": "2026-08-10",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "23925663616",
+    "moving_time": 377.5920104980469,
+    "name": "#37 | Muscle-ups",
+    "raw_activity_type": "strength_training",
+    "raw_type": "strength_training",
+    "start_date_local": "2026-08-10T19:03:47",
+    "type": "WeightTraining",
+    "year": 2026
+  },
+  {
+    "date": "2026-08-11",
+    "distance": 42.380001068115234,
+    "elevation_gain": 0.0,
+    "id": "23938254993",
+    "moving_time": 71.0,
+    "name": "Table Tennis",
+    "raw_activity_type": "table_tennis",
+    "raw_type": "table_tennis",
+    "start_date_local": "2026-08-11T18:20:52",
+    "type": "TableTennis",
+    "year": 2026
+  },
+  {
+    "date": "2026-08-11",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "23938673556",
+    "moving_time": 363.82598876953125,
+    "name": "For\u0163\u0103",
+    "raw_activity_type": "strength_training",
+    "raw_type": "strength_training",
+    "start_date_local": "2026-08-11T19:21:33",
+    "type": "WeightTraining",
+    "year": 2026
+  },
+  {
+    "date": "2026-08-12",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "23945325798",
+    "moving_time": 256.61199951171875,
+    "name": "3 Pull-ups/Dips",
+    "raw_activity_type": "strength_training",
+    "raw_type": "strength_training",
+    "start_date_local": "2026-08-12T09:12:33",
+    "type": "WeightTraining",
+    "year": 2026
   }
 ]
