@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T17:53:15.748508+00:00",
+  "generated_at": "2026-09-07T18:54:57.451473+00:00",
   "years": {
     "2024": {
       "Badminton": {
@@ -12821,6 +12821,24 @@
           "distance": 22.709999084472656,
           "elevation_gain": 0.0,
           "moving_time": 30.0
+        },
+        "2026-09-06": {
+          "activity_ids": [
+            "24267681459"
+          ],
+          "count": 1,
+          "distance": 36.2599983215332,
+          "elevation_gain": 0.0,
+          "moving_time": 33.0
+        },
+        "2026-09-07": {
+          "activity_ids": [
+            "24274832216"
+          ],
+          "count": 1,
+          "distance": 32.95000076293945,
+          "elevation_gain": 0.0,
+          "moving_time": 31.0
         }
       },
       "Walk": {
@@ -13992,6 +14010,15 @@
           "distance": 5403.7998046875,
           "elevation_gain": 27.0,
           "moving_time": 3926.822998046875
+        },
+        "2026-09-04": {
+          "activity_ids": [
+            "24239456255"
+          ],
+          "count": 1,
+          "distance": 2711.699951171875,
+          "elevation_gain": 13.0,
+          "moving_time": 2209.0
         }
       },
       "WeightTraining": {
@@ -16180,6 +16207,33 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 187.95899963378906
+        },
+        "2026-09-05": {
+          "activity_ids": [
+            "24251466263"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 230.97500610351562
+        },
+        "2026-09-06": {
+          "activity_ids": [
+            "24267682419"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 536.4639892578125
+        },
+        "2026-09-07": {
+          "activity_ids": [
+            "24274841532"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 313.8890075683594
         }
       },
       "Workout": {

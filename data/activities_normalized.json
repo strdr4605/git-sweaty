@@ -26466,5 +26466,83 @@
     "start_date_local": "2026-09-04T08:34:45",
     "type": "WeightTraining",
     "year": 2026
+  },
+  {
+    "date": "2026-09-04",
+    "distance": 2711.699951171875,
+    "elevation_gain": 13.0,
+    "id": "24239456255",
+    "moving_time": 2209.0,
+    "name": "Chisinau Walking",
+    "raw_activity_type": "walking",
+    "raw_type": "walking",
+    "start_date_local": "2026-09-04T18:39:37",
+    "type": "Walk",
+    "year": 2026
+  },
+  {
+    "date": "2026-09-05",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "24251466263",
+    "moving_time": 230.97500610351562,
+    "name": "For\u0163\u0103",
+    "raw_activity_type": "strength_training",
+    "raw_type": "strength_training",
+    "start_date_local": "2026-09-05T19:40:37",
+    "type": "WeightTraining",
+    "year": 2026
+  },
+  {
+    "date": "2026-09-06",
+    "distance": 36.2599983215332,
+    "elevation_gain": 0.0,
+    "id": "24267681459",
+    "moving_time": 33.0,
+    "name": "Table Tennis",
+    "raw_activity_type": "table_tennis",
+    "raw_type": "table_tennis",
+    "start_date_local": "2026-09-06T18:21:09",
+    "type": "TableTennis",
+    "year": 2026
+  },
+  {
+    "date": "2026-09-06",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "24267682419",
+    "moving_time": 536.4639892578125,
+    "name": "For\u0163\u0103",
+    "raw_activity_type": "strength_training",
+    "raw_type": "strength_training",
+    "start_date_local": "2026-09-06T20:17:06",
+    "type": "WeightTraining",
+    "year": 2026
+  },
+  {
+    "date": "2026-09-07",
+    "distance": 32.95000076293945,
+    "elevation_gain": 0.0,
+    "id": "24274832216",
+    "moving_time": 31.0,
+    "name": "Table Tennis",
+    "raw_activity_type": "table_tennis",
+    "raw_type": "table_tennis",
+    "start_date_local": "2026-09-07T19:32:23",
+    "type": "TableTennis",
+    "year": 2026
+  },
+  {
+    "date": "2026-09-07",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "24274841532",
+    "moving_time": 313.8890075683594,
+    "name": "3 Pull-ups/Dips",
+    "raw_activity_type": "strength_training",
+    "raw_type": "strength_training",
+    "start_date_local": "2026-09-07T20:40:17",
+    "type": "WeightTraining",
+    "year": 2026
   }
 ]
