@@ -26999,5 +26999,83 @@
     "start_date_local": "2026-09-25T20:47:05",
     "type": "Yoga",
     "year": 2026
+  },
+  {
+    "date": "2026-09-25",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "24497602119",
+    "moving_time": 1203.2039794921875,
+    "name": "Yoga",
+    "raw_activity_type": "yoga",
+    "raw_type": "yoga",
+    "start_date_local": "2026-09-25T22:44:23",
+    "type": "Yoga",
+    "year": 2026
+  },
+  {
+    "date": "2026-09-26",
+    "distance": 34.43000030517578,
+    "elevation_gain": 0.0,
+    "id": "24507687675",
+    "moving_time": 67.0,
+    "name": "Table Tennis",
+    "raw_activity_type": "table_tennis",
+    "raw_type": "table_tennis",
+    "start_date_local": "2026-09-26T18:08:25",
+    "type": "TableTennis",
+    "year": 2026
+  },
+  {
+    "date": "2026-09-26",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "24507983045",
+    "moving_time": 182.17300415039062,
+    "name": "For\u0163\u0103",
+    "raw_activity_type": "strength_training",
+    "raw_type": "strength_training",
+    "start_date_local": "2026-09-26T19:14:17",
+    "type": "WeightTraining",
+    "year": 2026
+  },
+  {
+    "date": "2026-09-27",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "24513374826",
+    "moving_time": 176.18899536132812,
+    "name": "For\u0163\u0103",
+    "raw_activity_type": "strength_training",
+    "raw_type": "strength_training",
+    "start_date_local": "2026-09-27T10:50:19",
+    "type": "WeightTraining",
+    "year": 2026
+  },
+  {
+    "date": "2026-09-28",
+    "distance": 2714.60009765625,
+    "elevation_gain": 24.0,
+    "id": "24531211470",
+    "moving_time": 1935.8110046386719,
+    "name": "Chisinau Walking",
+    "raw_activity_type": "walking",
+    "raw_type": "walking",
+    "start_date_local": "2026-09-28T19:11:30",
+    "type": "Walk",
+    "year": 2026
+  },
+  {
+    "date": "2026-09-28",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "24531537711",
+    "moving_time": 142.95899963378906,
+    "name": "For\u0163\u0103",
+    "raw_activity_type": "strength_training",
+    "raw_type": "strength_training",
+    "start_date_local": "2026-09-28T19:49:37",
+    "type": "WeightTraining",
+    "year": 2026
   }
 ]
