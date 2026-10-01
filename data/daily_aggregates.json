@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T20:55:09.219675+00:00",
+  "generated_at": "2026-10-01T19:57:35.237868+00:00",
   "years": {
     "2024": {
       "Badminton": {
@@ -12911,6 +12911,24 @@
           "distance": 34.43000030517578,
           "elevation_gain": 0.0,
           "moving_time": 67.0
+        },
+        "2026-09-30": {
+          "activity_ids": [
+            "24556074403"
+          ],
+          "count": 1,
+          "distance": 30.75,
+          "elevation_gain": 0.0,
+          "moving_time": 32.0
+        },
+        "2026-10-01": {
+          "activity_ids": [
+            "24568933570"
+          ],
+          "count": 1,
+          "distance": 57.41999816894531,
+          "elevation_gain": 0.0,
+          "moving_time": 85.0
         }
       },
       "Walk": {
@@ -14154,6 +14172,24 @@
           "distance": 2714.60009765625,
           "elevation_gain": 24.0,
           "moving_time": 1935.8110046386719
+        },
+        "2026-09-29": {
+          "activity_ids": [
+            "24542426497"
+          ],
+          "count": 1,
+          "distance": 3010.7099609375,
+          "elevation_gain": 44.0,
+          "moving_time": 1897.508999824524
+        },
+        "2026-10-01": {
+          "activity_ids": [
+            "24568152792"
+          ],
+          "count": 1,
+          "distance": 1621.469970703125,
+          "elevation_gain": 16.0,
+          "moving_time": 1238.0
         }
       },
       "WeightTraining": {
@@ -16559,6 +16595,33 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 142.95899963378906
+        },
+        "2026-09-29": {
+          "activity_ids": [
+            "24545142834"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 121.33399963378906
+        },
+        "2026-09-30": {
+          "activity_ids": [
+            "24556399649"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 103.71800231933594
+        },
+        "2026-10-01": {
+          "activity_ids": [
+            "24569321799"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 256.16900634765625
         }
       },
       "Workout": {
