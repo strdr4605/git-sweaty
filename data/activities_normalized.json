@@ -27298,5 +27298,83 @@
     "start_date_local": "2026-10-07T18:50:23",
     "type": "WeightTraining",
     "year": 2026
+  },
+  {
+    "date": "2026-10-08",
+    "distance": 48.279998779296875,
+    "elevation_gain": 0.0,
+    "id": "24653758655",
+    "moving_time": 25.0,
+    "name": "Table Tennis",
+    "raw_activity_type": "table_tennis",
+    "raw_type": "table_tennis",
+    "start_date_local": "2026-10-08T18:09:53",
+    "type": "TableTennis",
+    "year": 2026
+  },
+  {
+    "date": "2026-10-08",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "24653763276",
+    "moving_time": 137.60000610351562,
+    "name": "For\u0163\u0103",
+    "raw_activity_type": "strength_training",
+    "raw_type": "strength_training",
+    "start_date_local": "2026-10-08T19:21:15",
+    "type": "WeightTraining",
+    "year": 2026
+  },
+  {
+    "date": "2026-10-09",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "24666187586",
+    "moving_time": 156.6999969482422,
+    "name": "For\u0163\u0103",
+    "raw_activity_type": "strength_training",
+    "raw_type": "strength_training",
+    "start_date_local": "2026-10-09T18:32:55",
+    "type": "WeightTraining",
+    "year": 2026
+  },
+  {
+    "date": "2026-10-10",
+    "distance": 2787.659912109375,
+    "elevation_gain": 16.0,
+    "id": "24673149290",
+    "moving_time": 1998.7369995117188,
+    "name": "Chisinau Walking",
+    "raw_activity_type": "walking",
+    "raw_type": "walking",
+    "start_date_local": "2026-10-10T13:49:42",
+    "type": "Walk",
+    "year": 2026
+  },
+  {
+    "date": "2026-10-10",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "24673392117",
+    "moving_time": 140.10699462890625,
+    "name": "For\u0163\u0103",
+    "raw_activity_type": "strength_training",
+    "raw_type": "strength_training",
+    "start_date_local": "2026-10-10T14:45:16",
+    "type": "WeightTraining",
+    "year": 2026
+  },
+  {
+    "date": "2026-10-10",
+    "distance": 77.02999877929688,
+    "elevation_gain": 0.0,
+    "id": "24677950408",
+    "moving_time": 42.0,
+    "name": "Table Tennis",
+    "raw_activity_type": "table_tennis",
+    "raw_type": "table_tennis",
+    "start_date_local": "2026-10-10T16:52:23",
+    "type": "TableTennis",
+    "year": 2026
   }
 ]
