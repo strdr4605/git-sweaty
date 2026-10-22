@@ -27610,5 +27610,70 @@
     "start_date_local": "2026-10-19T18:43:29",
     "type": "Walk",
     "year": 2026
+  },
+  {
+    "date": "2026-10-20",
+    "distance": 3005.610107421875,
+    "elevation_gain": 31.0,
+    "id": "24787291657",
+    "moving_time": 1975.0,
+    "name": "Chisinau Walking",
+    "raw_activity_type": "walking",
+    "raw_type": "walking",
+    "start_date_local": "2026-10-20T09:26:15",
+    "type": "Walk",
+    "year": 2026
+  },
+  {
+    "date": "2026-10-20",
+    "distance": 3870.75,
+    "elevation_gain": 9.0,
+    "id": "24792009274",
+    "moving_time": 2720.0,
+    "name": "Chisinau Walking",
+    "raw_activity_type": "walking",
+    "raw_type": "walking",
+    "start_date_local": "2026-10-20T17:29:56",
+    "type": "Walk",
+    "year": 2026
+  },
+  {
+    "date": "2026-10-20",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "24792465007",
+    "moving_time": 203.8939971923828,
+    "name": "For\u0163\u0103",
+    "raw_activity_type": "strength_training",
+    "raw_type": "strength_training",
+    "start_date_local": "2026-10-20T18:25:43",
+    "type": "WeightTraining",
+    "year": 2026
+  },
+  {
+    "date": "2026-10-21",
+    "distance": 698.3900146484375,
+    "elevation_gain": 4.0,
+    "id": "24803586415",
+    "moving_time": 347.0,
+    "name": "Chisinau Walking",
+    "raw_activity_type": "walking",
+    "raw_type": "walking",
+    "start_date_local": "2026-10-21T17:35:48",
+    "type": "Walk",
+    "year": 2026
+  },
+  {
+    "date": "2026-10-21",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "24804937714",
+    "moving_time": 107.52100372314453,
+    "name": "For\u0163\u0103",
+    "raw_activity_type": "strength_training",
+    "raw_type": "strength_training",
+    "start_date_local": "2026-10-21T19:19:29",
+    "type": "WeightTraining",
+    "year": 2026
   }
 ]
