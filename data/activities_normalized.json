@@ -28117,5 +28117,44 @@
     "start_date_local": "2026-11-04T19:00:42",
     "type": "WeightTraining",
     "year": 2026
+  },
+  {
+    "date": "2026-11-05",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "24978990603",
+    "moving_time": 320.57000732421875,
+    "name": "3 Pull-ups/Dips",
+    "raw_activity_type": "strength_training",
+    "raw_type": "strength_training",
+    "start_date_local": "2026-11-05T20:35:02",
+    "type": "WeightTraining",
+    "year": 2026
+  },
+  {
+    "date": "2026-11-06",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "24989742648",
+    "moving_time": 249.79100036621094,
+    "name": "For\u0163\u0103",
+    "raw_activity_type": "strength_training",
+    "raw_type": "strength_training",
+    "start_date_local": "2026-11-06T20:24:17",
+    "type": "WeightTraining",
+    "year": 2026
+  },
+  {
+    "date": "2026-11-07",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "25000221211",
+    "moving_time": 313.7179870605469,
+    "name": "For\u0163\u0103",
+    "raw_activity_type": "strength_training",
+    "raw_type": "strength_training",
+    "start_date_local": "2026-11-07T18:17:19",
+    "type": "WeightTraining",
+    "year": 2026
   }
 ]

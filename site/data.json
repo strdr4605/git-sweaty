@@ -16106,6 +16106,27 @@
       "subtype": "strength_training",
       "type": "WeightTraining",
       "year": 2026
+    },
+    {
+      "date": "2026-11-05",
+      "hour": 20,
+      "subtype": "strength_training",
+      "type": "WeightTraining",
+      "year": 2026
+    },
+    {
+      "date": "2026-11-06",
+      "hour": 20,
+      "subtype": "strength_training",
+      "type": "WeightTraining",
+      "year": 2026
+    },
+    {
+      "date": "2026-11-07",
+      "hour": 18,
+      "subtype": "strength_training",
+      "type": "WeightTraining",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -33257,6 +33278,33 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 377.6960144042969
+        },
+        "2026-11-05": {
+          "activity_ids": [
+            "24978990603"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 320.57000732421875
+        },
+        "2026-11-06": {
+          "activity_ids": [
+            "24989742648"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 249.79100036621094
+        },
+        "2026-11-07": {
+          "activity_ids": [
+            "25000221211"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 313.7179870605469
         }
       },
       "Workout": {
@@ -33898,7 +33946,7 @@
     }
   },
   "garmin_profile_url": "https://connect.garmin.com/modern/profile/b8379fe7-f4a0-4e07-a963-378980c2d531",
-  "generated_at": "2026-11-04T20:59:02.334755+00:00",
+  "generated_at": "2026-11-07T19:10:31.098913+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://connect.garmin.com/modern/profile/b8379fe7-f4a0-4e07-a963-378980c2d531",
   "repo": "strdr4605/git-sweaty",
