@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T21:05:14.344673+00:00",
+  "generated_at": "2026-11-13T21:04:01.944640+00:00",
   "years": {
     "2024": {
       "Badminton": {
@@ -14420,6 +14420,24 @@
           "distance": 3358.510009765625,
           "elevation_gain": 50.0,
           "moving_time": 2398.7109985351562
+        },
+        "2026-11-11": {
+          "activity_ids": [
+            "25045922251"
+          ],
+          "count": 1,
+          "distance": 1727.030029296875,
+          "elevation_gain": 28.0,
+          "moving_time": 1045.0
+        },
+        "2026-11-13": {
+          "activity_ids": [
+            "25068917701"
+          ],
+          "count": 1,
+          "distance": 1635.1600341796875,
+          "elevation_gain": 17.0,
+          "moving_time": 1633.0
         }
       },
       "WeightTraining": {
@@ -17212,6 +17230,33 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 588.0689697265625
+        },
+        "2026-11-11": {
+          "activity_ids": [
+            "25045638303"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 353.60198974609375
+        },
+        "2026-11-12": {
+          "activity_ids": [
+            "25057918271"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 739.3720092773438
+        },
+        "2026-11-13": {
+          "activity_ids": [
+            "25066590115"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 158.43899536132812
         }
       },
       "Workout": {
