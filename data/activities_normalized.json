@@ -28390,5 +28390,83 @@
     "start_date_local": "2026-11-19T19:36:51",
     "type": "WeightTraining",
     "year": 2026
+  },
+  {
+    "date": "2026-11-20",
+    "distance": 7385.35986328125,
+    "elevation_gain": 49.0,
+    "id": "25145121618",
+    "moving_time": 7139.0,
+    "name": "Chisinau Walking",
+    "raw_activity_type": "walking",
+    "raw_type": "walking",
+    "start_date_local": "2026-11-20T18:30:39",
+    "type": "Walk",
+    "year": 2026
+  },
+  {
+    "date": "2026-11-20",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "25145418259",
+    "moving_time": 196.7570037841797,
+    "name": "For\u0163\u0103",
+    "raw_activity_type": "strength_training",
+    "raw_type": "strength_training",
+    "start_date_local": "2026-11-20T23:11:49",
+    "type": "WeightTraining",
+    "year": 2026
+  },
+  {
+    "date": "2026-11-21",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "25154762052",
+    "moving_time": 187.7949981689453,
+    "name": "For\u0163\u0103",
+    "raw_activity_type": "strength_training",
+    "raw_type": "strength_training",
+    "start_date_local": "2026-11-21T18:57:21",
+    "type": "WeightTraining",
+    "year": 2026
+  },
+  {
+    "date": "2026-11-22",
+    "distance": 99.76000213623047,
+    "elevation_gain": 0.0,
+    "id": "25163495353",
+    "moving_time": 107.0,
+    "name": "Table Tennis",
+    "raw_activity_type": "table_tennis",
+    "raw_type": "table_tennis",
+    "start_date_local": "2026-11-22T15:12:45",
+    "type": "TableTennis",
+    "year": 2026
+  },
+  {
+    "date": "2026-11-22",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "25164114901",
+    "moving_time": 471.0010070800781,
+    "name": "For\u0163\u0103",
+    "raw_activity_type": "strength_training",
+    "raw_type": "strength_training",
+    "start_date_local": "2026-11-22T16:39:41",
+    "type": "WeightTraining",
+    "year": 2026
+  },
+  {
+    "date": "2026-11-22",
+    "distance": 2197.8798828125,
+    "elevation_gain": 74.0,
+    "id": "25166170243",
+    "moving_time": 1423.0,
+    "name": "Chisinau Walking",
+    "raw_activity_type": "walking",
+    "raw_type": "walking",
+    "start_date_local": "2026-11-22T19:35:46",
+    "type": "Walk",
+    "year": 2026
   }
 ]
